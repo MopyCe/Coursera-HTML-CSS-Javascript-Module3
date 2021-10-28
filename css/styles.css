@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "BalsamiqSans-Regular";
+    src: url(../fonts/BalsamiqSans-Regular.ttf) format("truetype");
+  }
+
+  body {
+    min-width: 100px;
+    font-size: 16px;
+    color: Black;
+    background-color: White;
+    font-family:'BalsamiqSans-Regular','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  #header-nav {
+    background-color: darkgray;
+    border-radius: 0;
+    border: 1;
+    border-color: black;
+    margin: 0px;
+  }
+
+.navbar-brand h1 { /* Company name */
+    font-family:'BalsamiqSans-Regular','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin : 0px;
+    line-height: .75;
+  }
+
+  #collapsable-nav {
+    padding: 0;
+    margin: 0;
+  }
+
+  #collapsable-nav ul {
+    margin: 0px;
+  }
+
+
+  #collapsable-nav .navbar-right a {
+    text-decoration: none;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    text-align: center;
+    color: black;
+  }
+
+  .navbar-default .navbar-toggle, .navbar-default .navbar-toggle:focus{
+    background-color: darkgray;
+    border-color: lightgray;
+    border-width: 1px;
+    border-style: solid;
+    color: lightgrey;
+  }
+
+  .navbar-default .navbar-toggle.collapsed {
+      background-color: darkgray;
+      border-color: black;
+      color: black
+  }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: lightgray;
+  }
+
+  .navbar-default .navbar-toggle.navbar-toggle.collapsed .icon-bar {
+    background-color: black;
+  }
+
+  section {
+      background-color: darkgray;
+      margin-top: 20px;
+      padding: 5px;
+  }
+
+  h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 3em;
+    font-family:'BalsamiqSans-Regular','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  h3 {
+    text-align: center;
+    margin-top: 0px;
+    font-family:'BalsamiqSans-Regular','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+  }
